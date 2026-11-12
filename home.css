@@ -5,3 +5,16 @@ body{
 a {
     border-radius: 14px;
 }
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --btn-bg: #f0f0f0;
+    --btn-border: #cccccc;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --btn-bg: #2a2a2a;
+    --btn-border: #444444;
+}
